@@ -4,7 +4,7 @@ import "./SongRow.css"
 function SongRow({ song, index }) {
     return (
         <div className="songRow">
-            <p>{index + 1}</p>
+            <p className="songRow__index">{index + 1}</p>
             <img
                 src={song.album.images[0].url}
                 className="songRow__album"

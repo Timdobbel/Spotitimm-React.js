@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Login from './Login';
-import Player from './Player'
+import Login from './components/Login';
+import Player from './components/Player'
 import { getTokenFromUrl } from './spotify';
 import SpotifyWebApi from "spotify-web-api-js";
 import { useDataLayerValue } from "./DataLayer";
@@ -18,8 +18,6 @@ function App() {
 
 
   useEffect(() => {
-
-
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Sidebar.css'
 import SidebarOption from './SidebarOption'
-import { useDataLayerValue } from "./DataLayer";
+import { useDataLayerValue } from "../DataLayer";
 
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
