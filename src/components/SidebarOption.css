@@ -28,3 +28,25 @@
     margin-left: 20px;
     font-size: 14px;
 }
+
+.sidebarOption__link {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+    transition: 200ms;
+}
+/* 
+.sidebarOption > a {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+    transition: 200ms;
+} */
+
+.sidebarOption >a:hover {
+    color: white;
+}
